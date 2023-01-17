@@ -34,7 +34,6 @@ export class ExpensesComponent implements OnInit {
     this.budgets = this.budgetsService.getAll();
   }
 
-  // TODO: try to use "get" method from service
   setCurrentExpense({
     expense,
     budgetId,
